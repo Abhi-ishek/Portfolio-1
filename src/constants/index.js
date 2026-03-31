@@ -19,9 +19,14 @@ export const EXPERIENCES = [
   },
   {
     year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+    role: "Summer Internship",
+    company: "Asian Institute of Technology",
+    description: `– Selected among top 15 of 800+ applicants to attend a 15-day International Innovation Camp.
+– Worked on a mini innovation project using AI technologies.
+– Explored technologies like Remote Sensing, ChatGPT, and Generative AI.
+– Collaborated in a team to design innovative solutions and learned about marketing and business.
+– Presented project outcomes and secured 1st place in the Mini Innovation Project Competition.
+.`,
     technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
   },
 ];
