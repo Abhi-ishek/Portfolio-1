@@ -12,10 +12,10 @@ export const EXPERIENCES = [
  
   {
     year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    role: " Frontend Developer",
+    company: "Nova Tech",
+    description: `Developed and maintained web applications using JavaScript, React.js,  Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    technologies: [ "HTML", " TailwindCSS" ,"React.js", "JavaScript"],
   },
   {
     year: "2020 - 2021",
@@ -32,13 +32,7 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-  {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
+
   {
     title: "Task Management App",
     image: project2,
