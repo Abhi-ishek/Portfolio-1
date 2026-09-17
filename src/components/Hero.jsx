@@ -16,7 +16,7 @@ export default function Hero() {
   <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-20">
 
     {/* TEXT SECTION */}
-    <div className="flex flex-col items-center lg:items-start text-center lg:text-left">
+    <div className="flex flex-col  items-center lg:items-start text-center lg:text-left">
       
       < motion.h1
       variants={container(0)}

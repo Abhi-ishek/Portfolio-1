@@ -32,7 +32,6 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-
   {
     title: "Task Management App",
     image: project2,
