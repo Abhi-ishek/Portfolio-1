@@ -13,12 +13,20 @@ function Navbar() {
          <img className='mx-3 w-10' src={logo} alt="logo" />
     </div>
     <div className='  m-8 flex items-center justify-center gap-4 text-2xl'>
-        <FaLinkedin  className=' transition-transform duration-200 hover:scale-150' />
+
+        <a href="https://www.linkedin.com/in/abhishek-prajapati-710a73218/" target="_blank" rel="noopener noreferrer" className="transition-transform duration-200 hover:scale-150">
+            <FaLinkedin/>
+        </a> 
+
+
         <FaInstagram   className='transition-transform duration-200 hover:scale-150' />
         <a href={resume} target="_blank" rel="noopener noreferrer" className="transition-transform duration-200 hover:scale-150">
             <FaIdCard/>
         </a> 
-        < FaGithub className='transition-transform duration-200 hover:scale-150' />
+        
+        <a href="https://github.com/Abhi-ishek" target="_blank" rel="noopener noreferrer" className="transition-transform duration-200 hover:scale-150">
+            <FaGithub/>
+        </a>
     </div>
 
    </nav>

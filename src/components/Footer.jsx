@@ -9,11 +9,6 @@ import React from "react";
 // import {ArrowUpRight} from "lucide-react";
 import { FaFacebook, FaGithub, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 import {
-  // Facebook,
-  // Instagram,
-  // Twitter,
-  // Linkedin,
-  // Github,
   Mail,
   MapPin,
   Phone,
