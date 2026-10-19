@@ -12,7 +12,7 @@ const container = (delay)=> ({
 
 export default function Hero() {
   return (
-    <div className="border-b border-neutral-900 pb-13 lg:mb-32">
+    <div id="home" className="border-b border-neutral-900 pb-16 pt-24 lg:mb-32">
   <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-20">
 
     {/* TEXT SECTION */}
@@ -31,7 +31,7 @@ export default function Hero() {
       initial="hidden"
       animate="visible"
       className="mt-4 text-lg lg:text-2xl bg-gradient-to-r from-pink-400 via-slate-400 to-purple-500 bg-clip-text text-transparent tracking-wide">
-        Front End Developer
+        Full Stack Developer
       </motion.span>
 
       <motion.p

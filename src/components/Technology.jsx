@@ -90,7 +90,7 @@
 //     </>
 //   )
 // }
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb, SiExpress } from "react-icons/si";
@@ -112,7 +112,7 @@ const iconVariant = (duration) => ({
 
 export default function Technology() {
   return (
-    <div className="pb-24">
+    <div id="technologies" className="border-b border-neutral-900 pb-24 pt-8">
       <h2 className="my-20 text-center text-4xl">Technology</h2>
       
       <motion.div

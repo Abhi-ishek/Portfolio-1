@@ -3,7 +3,7 @@ import {motion } from "motion/react"
 import { EXPERIENCES } from '../constants'
 export default function Experience() {
   return (
-    <div  className='   pb-24'>
+    <div id="experience" className="border-b border-neutral-900 pb-24 pt-8">
         <h2 className=' my-20 text-center text-4xl'>Experience</h2>
  <div>
     {EXPERIENCES.map((experience, index) =>( 
@@ -28,7 +28,7 @@ export default function Experience() {
    transition={{ duration:0.5}}
             className=' mb-4 text-neutral-500'>{experience.description} </motion.p>
             {experience.technologies.map((tech ,index ) =>(
-                <span key={index} className=' mr-2 mt-2 rounded bg-neutral-400 text-purple-500'>{tech} </span>
+                <span key={index} className='mr-2 mt-2 inline-block rounded-md border border-neutral-800 bg-neutral-900 px-2.5 py-1 text-xs font-medium text-purple-400'>{tech}</span>
             ) )}
 
             </div>
